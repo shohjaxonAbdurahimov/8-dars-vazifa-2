@@ -1,0 +1,65 @@
+@import  url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+ul ,ol{
+    list-style: none;
+}
+a:hover{
+    color: coral;
+}
+.menyu{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+}
+h1{
+    font-size: 4rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.car , .menyu{
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menyu{
+    background-image: url(../imgs/menyu.jpg);
+   
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.bmw_car{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5) ), url(../imgs/bmw.jpg);
+   
+}
+.bugatti_car{
+    background-image: url(../imgs/bugatti-card.jpg);
+}
+.tesla_car{
+    background-image: url(../imgs/tesla-car.jpg);
+}
+.ferrari_car{
+    background-image: url(../imgs/ferrari.jpg);
+}
+.mersedes_car{background-image: url(../imgs/mersedes-car.jpg);}
+.porche_car{background-image: url(../imgs/porche.jpg);}
+.menyu li:not(:last-child){
+    margin-bottom: 1.2rem;
+}
